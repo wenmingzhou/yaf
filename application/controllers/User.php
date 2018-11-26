@@ -16,6 +16,7 @@ class UserController extends Yaf_Controller_Abstract {
 		//1. fetch query
 		$get = $this->getRequest()->getQuery("get", "default value");
         echo $name;
+
 		//2. fetch model
 		$model = new SampleModel();
 
